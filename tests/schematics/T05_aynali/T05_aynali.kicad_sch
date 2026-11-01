@@ -1,0 +1,1483 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "ede06d5d-0eb8-4a89-89d8-21702efa6a5f")
+	(paper "A4")
+	(lib_symbols
+		(symbol "74xGxx:74AUC2G02"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -2.54 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "74AUC2G02"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Dual NOR Gate, Low-Voltage CMOS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Dual Gate NOR LVC CMOS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SSOP* VSSOP*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "74AUC2G02_1_1"
+				(arc
+					(start -7.62 5.08)
+					(mid -5.838 0)
+					(end -7.62 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 2.54) (xy -6.35 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 -2.54) (xy -6.35 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start 5.08 0)
+					(mid 3.202 -3.202)
+					(end 0 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 5.08)
+					(mid 3.2271 3.2271)
+					(end 5.08 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 5.08) (xy -7.62 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.08) (xy -7.62 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -15.24 2.54 0)
+					(length 7.62)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -2.54 0)
+					(length 7.62)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 12.7 0 180)
+					(length 7.62)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74AUC2G02_2_1"
+				(arc
+					(start -7.62 5.08)
+					(mid -5.838 0)
+					(end -7.62 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 2.54) (xy -6.35 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 -2.54) (xy -6.35 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start 5.08 0)
+					(mid 3.202 -3.202)
+					(end 0 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 5.08)
+					(mid 3.2271 3.2271)
+					(end 5.08 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 5.08) (xy -7.62 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.08) (xy -7.62 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin output inverted
+					(at 12.7 0 180)
+					(length 7.62)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 2.54 0)
+					(length 7.62)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -2.54 0)
+					(length 7.62)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74AUC2G02_3_0"
+				(rectangle
+					(start -5.08 -5.08)
+					(end 5.08 5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "74AUC2G02_3_1"
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 10.16 270)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "74xGxx:74AUC2G04"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -2.54 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "74AUC2G04"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Dual NOT Gate, Low-Voltage CMOS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Dual Gate NOT LVC CMOS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SG-* SOT*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "74AUC2G04_1_1"
+				(polyline
+					(pts
+						(xy -7.62 6.35) (xy -7.62 -6.35) (xy 5.08 0) (xy -7.62 6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -15.24 0 0)
+					(length 7.62)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 12.7 0 180)
+					(length 7.62)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74AUC2G04_2_1"
+				(polyline
+					(pts
+						(xy -7.62 6.35) (xy -7.62 -6.35) (xy 5.08 0) (xy -7.62 6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -15.24 0 0)
+					(length 7.62)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 12.7 0 180)
+					(length 7.62)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74AUC2G04_3_0"
+				(rectangle
+					(start -5.08 -5.08)
+					(end 5.08 5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "74AUC2G04_3_1"
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 10.16 270)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "74xGxx:74AUC2G08"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -2.54 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "74AUC2G08"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Dual AND Gate, Low-Voltage CMOS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Dual Gate AND LVC CMOS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SSOP* VSSOP*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "74AUC2G08_1_1"
+				(arc
+					(start 0 5.08)
+					(mid 5.0579 0)
+					(end 0 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.08) (xy -7.62 -5.08) (xy -7.62 5.08) (xy 0 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -15.24 2.54 0)
+					(length 7.62)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -2.54 0)
+					(length 7.62)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 0 180)
+					(length 7.62)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74AUC2G08_2_1"
+				(arc
+					(start 0 5.08)
+					(mid 5.0579 0)
+					(end 0 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.08) (xy -7.62 -5.08) (xy -7.62 5.08) (xy 0 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin output line
+					(at 12.7 0 180)
+					(length 7.62)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 2.54 0)
+					(length 7.62)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -2.54 0)
+					(length 7.62)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74AUC2G08_3_0"
+				(rectangle
+					(start -5.08 -5.08)
+					(end 5.08 5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "74AUC2G08_3_1"
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 10.16 270)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "74xGxx:74AUC2G32"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -2.54 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "74AUC2G32"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Dual OR Gate, Low-Voltage CMOS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Dual Gate OR LVC CMOS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SSOP* VSSOP*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "74AUC2G32_1_1"
+				(arc
+					(start -7.62 5.08)
+					(mid -5.838 0)
+					(end -7.62 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 2.54) (xy -6.35 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 -2.54) (xy -6.35 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start 5.08 0)
+					(mid 3.202 -3.202)
+					(end 0 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 5.08)
+					(mid 3.2271 3.2271)
+					(end 5.08 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 5.08) (xy -7.62 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.08) (xy -7.62 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -15.24 2.54 0)
+					(length 7.62)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -2.54 0)
+					(length 7.62)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 0 180)
+					(length 7.62)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74AUC2G32_2_1"
+				(arc
+					(start -7.62 5.08)
+					(mid -5.838 0)
+					(end -7.62 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 2.54) (xy -6.35 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 -2.54) (xy -6.35 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start 5.08 0)
+					(mid 3.202 -3.202)
+					(end 0 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 5.08)
+					(mid 3.2271 3.2271)
+					(end 5.08 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 5.08) (xy -7.62 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.08) (xy -7.62 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin output line
+					(at 12.7 0 180)
+					(length 7.62)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 2.54 0)
+					(length 7.62)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -2.54 0)
+					(length 7.62)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74AUC2G32_3_0"
+				(rectangle
+					(start -5.08 -5.08)
+					(end 5.08 5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "74AUC2G32_3_1"
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 10.16 270)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(symbol (lib_id "74xGxx:74AUC2G08") (at 63.5 76.2 0) (mirror x) (unit 1) (body_style 1) (exclude_from_sim no)
+		(in_bom yes) (on_board yes) (dnp no) (uuid "d23f5f97-8cc7-4685-9deb-05e0f567ba53")
+		(property "Reference" "U1" (at 62.23 66.04 0) (effects (font (size 1.27 1.27))))
+		(property "Value" "74AUC2G08" (at 62.23 68.58 0) (effects (font (size 1.27 1.27))))
+		(property "Footprint" "" (at 63.5 76.2 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Datasheet" "" (at 63.5 76.2 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Description" "" (at 63.5 76.2 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(instances (project "T05_aynali" (path "/ede06d5d-0eb8-4a89-89d8-21702efa6a5f" (reference "U1") (unit 1))))
+	)
+	(wire (pts (xy 48.26 78.74) (xy 43.18 78.74)) (stroke (width 0) (type default)) (uuid "78a3cd66-4617-438c-9414-67947494a9ea"))
+	(label "N1" (at 43.18 78.74 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "38b20ee6-72b6-4351-96f5-86f8a2b0586f"))
+	(wire (pts (xy 48.26 73.66) (xy 43.18 73.66)) (stroke (width 0) (type default)) (uuid "6571c226-4897-4755-844e-460b1a785621"))
+	(label "N2" (at 43.18 73.66 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "acc18e62-48ca-4d90-be86-07e445790eae"))
+	(wire (pts (xy 76.2 76.2) (xy 81.28 76.2)) (stroke (width 0) (type default)) (uuid "b766c554-6e64-4a7b-bab3-30dc5dfd6500"))
+	(label "N3" (at 81.28 76.2 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "3ea09006-6412-4822-9346-9560f56b4b6a"))
+	(symbol (lib_id "74xGxx:74AUC2G04") (at 114.3 76.2 0) (mirror y) (unit 1) (body_style 1) (exclude_from_sim no)
+		(in_bom yes) (on_board yes) (dnp no) (uuid "d905f62b-ed85-4cd9-879c-f5d21b440141")
+		(property "Reference" "U2" (at 113.03 66.04 0) (effects (font (size 1.27 1.27))))
+		(property "Value" "74AUC2G04" (at 113.03 68.58 0) (effects (font (size 1.27 1.27))))
+		(property "Footprint" "" (at 114.3 76.2 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Datasheet" "" (at 114.3 76.2 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Description" "" (at 114.3 76.2 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(instances (project "T05_aynali" (path "/ede06d5d-0eb8-4a89-89d8-21702efa6a5f" (reference "U2") (unit 1))))
+	)
+	(wire (pts (xy 129.54 76.2) (xy 134.62 76.2)) (stroke (width 0) (type default)) (uuid "78edc120-8a73-4927-a091-637b9c3408e8"))
+	(label "N4" (at 134.62 76.2 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "6552c29d-c956-466d-9bc6-2b13149be066"))
+	(wire (pts (xy 101.6 76.2) (xy 96.52 76.2)) (stroke (width 0) (type default)) (uuid "b8af0f14-43ef-4ec5-9f77-9cd6890f91ea"))
+	(label "N5" (at 96.52 76.2 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "87f21dca-64d6-40de-a908-47ee08ab8f03"))
+	(symbol (lib_id "74xGxx:74AUC2G32") (at 165.1 76.2 90) (mirror x) (unit 1) (body_style 1) (exclude_from_sim no)
+		(in_bom yes) (on_board yes) (dnp no) (uuid "729f9b9e-291a-40a7-901f-aabf48b3c0e5")
+		(property "Reference" "U3" (at 163.83 66.04 0) (effects (font (size 1.27 1.27))))
+		(property "Value" "74AUC2G32" (at 163.83 68.58 0) (effects (font (size 1.27 1.27))))
+		(property "Footprint" "" (at 165.1 76.2 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Datasheet" "" (at 165.1 76.2 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Description" "" (at 165.1 76.2 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(instances (project "T05_aynali" (path "/ede06d5d-0eb8-4a89-89d8-21702efa6a5f" (reference "U3") (unit 1))))
+	)
+	(wire (pts (xy 162.56 60.96) (xy 162.56 55.88)) (stroke (width 0) (type default)) (uuid "fc83de37-c4be-49f9-9abd-8b91ac1870d9"))
+	(label "N6" (at 162.56 55.88 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "a3f34942-586f-4003-869f-bbe1117cee46"))
+	(wire (pts (xy 167.64 60.96) (xy 167.64 55.88)) (stroke (width 0) (type default)) (uuid "b1b67c5c-9a73-4531-a5c9-95f9bb94e1b4"))
+	(label "N7" (at 167.64 55.88 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "94b3779a-fb43-40af-a51d-4a584e7e1d2d"))
+	(wire (pts (xy 165.1 88.9) (xy 165.1 93.98)) (stroke (width 0) (type default)) (uuid "e0498f84-515c-4831-92a6-c93cf1d4cf66"))
+	(label "N8" (at 165.1 93.98 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "0ec1b3ed-9fde-426f-9565-0ae2016323c4"))
+	(symbol (lib_id "74xGxx:74AUC2G02") (at 215.9 76.2 90) (mirror y) (unit 1) (body_style 1) (exclude_from_sim no)
+		(in_bom yes) (on_board yes) (dnp no) (uuid "3bec1941-62e6-45fb-af5a-d877302be304")
+		(property "Reference" "U4" (at 214.63 66.04 0) (effects (font (size 1.27 1.27))))
+		(property "Value" "74AUC2G02" (at 214.63 68.58 0) (effects (font (size 1.27 1.27))))
+		(property "Footprint" "" (at 215.9 76.2 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Datasheet" "" (at 215.9 76.2 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Description" "" (at 215.9 76.2 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(instances (project "T05_aynali" (path "/ede06d5d-0eb8-4a89-89d8-21702efa6a5f" (reference "U4") (unit 1))))
+	)
+	(wire (pts (xy 218.44 91.44) (xy 218.44 96.52)) (stroke (width 0) (type default)) (uuid "3fbfb2cb-d3ba-48e4-b74a-0b96569a132b"))
+	(label "N9" (at 218.44 96.52 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "f79bdb2a-da60-417f-9476-caa3aaf2f48b"))
+	(wire (pts (xy 213.36 91.44) (xy 213.36 96.52)) (stroke (width 0) (type default)) (uuid "6fd1954b-faaa-4a9a-8dba-d351330c9235"))
+	(label "N10" (at 213.36 96.52 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "d53284e9-5595-4d92-b7e2-63a8d4d85dff"))
+	(wire (pts (xy 215.9 63.5) (xy 215.9 58.42)) (stroke (width 0) (type default)) (uuid "14ea5dc6-8bf4-4114-8975-4103b4039cca"))
+	(label "N11" (at 215.9 58.42 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "05814572-ba89-42e6-9eb7-677b8eb4ae15"))
+	(symbol (lib_id "74xGxx:74AUC2G08") (at 63.5 139.7 180) (mirror x) (unit 1) (body_style 1) (exclude_from_sim no)
+		(in_bom yes) (on_board yes) (dnp no) (uuid "fd9e282d-2d95-451a-8c64-e78c935c1f2c")
+		(property "Reference" "U5" (at 62.23 129.54 0) (effects (font (size 1.27 1.27))))
+		(property "Value" "74AUC2G08" (at 62.23 132.08 0) (effects (font (size 1.27 1.27))))
+		(property "Footprint" "" (at 63.5 139.7 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Datasheet" "" (at 63.5 139.7 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Description" "" (at 63.5 139.7 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(instances (project "T05_aynali" (path "/ede06d5d-0eb8-4a89-89d8-21702efa6a5f" (reference "U5") (unit 1))))
+	)
+	(wire (pts (xy 78.74 137.16) (xy 83.82 137.16)) (stroke (width 0) (type default)) (uuid "efe03e7a-da1c-4508-a76a-8040055ace2b"))
+	(label "N12" (at 83.82 137.16 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "fbd4cf49-42f4-4b79-b8dd-c9a535318bbe"))
+	(wire (pts (xy 78.74 142.24) (xy 83.82 142.24)) (stroke (width 0) (type default)) (uuid "013eb39b-efe0-4647-adac-d5b3ec55f977"))
+	(label "N13" (at 83.82 142.24 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "680ee472-dc56-4910-ad77-52cb7dc59c49"))
+	(wire (pts (xy 50.8 139.7) (xy 45.72 139.7)) (stroke (width 0) (type default)) (uuid "d12acf01-dab4-4e6b-b2fa-3a5c5606b28a"))
+	(label "N14" (at 45.72 139.7 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "ee15bd2e-c220-4bbb-b094-7a36daf3497b"))
+	(symbol (lib_id "74xGxx:74AUC2G04") (at 114.3 139.7 180) (mirror y) (unit 1) (body_style 1) (exclude_from_sim no)
+		(in_bom yes) (on_board yes) (dnp no) (uuid "04e77c88-24dd-4008-accb-15d43268ee30")
+		(property "Reference" "U6" (at 113.03 129.54 0) (effects (font (size 1.27 1.27))))
+		(property "Value" "74AUC2G04" (at 113.03 132.08 0) (effects (font (size 1.27 1.27))))
+		(property "Footprint" "" (at 114.3 139.7 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Datasheet" "" (at 114.3 139.7 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Description" "" (at 114.3 139.7 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(instances (project "T05_aynali" (path "/ede06d5d-0eb8-4a89-89d8-21702efa6a5f" (reference "U6") (unit 1))))
+	)
+	(wire (pts (xy 99.06 139.7) (xy 93.98 139.7)) (stroke (width 0) (type default)) (uuid "d9eca950-0937-4c62-bbf9-836caa9554b8"))
+	(label "N15" (at 93.98 139.7 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "818787e2-60a3-43ae-af49-f71470565664"))
+	(wire (pts (xy 127 139.7) (xy 132.08 139.7)) (stroke (width 0) (type default)) (uuid "6b93adaf-d1f1-48a1-a43d-9dd066a8565a"))
+	(label "N16" (at 132.08 139.7 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "8389e83c-f970-4f43-9f32-33b82d6dba57"))
+	(symbol (lib_id "74xGxx:74AUC2G32") (at 165.1 139.7 270) (mirror x) (unit 1) (body_style 1) (exclude_from_sim no)
+		(in_bom yes) (on_board yes) (dnp no) (uuid "8647eae0-933d-4325-a878-6dceffcd6d59")
+		(property "Reference" "U7" (at 163.83 129.54 0) (effects (font (size 1.27 1.27))))
+		(property "Value" "74AUC2G32" (at 163.83 132.08 0) (effects (font (size 1.27 1.27))))
+		(property "Footprint" "" (at 165.1 139.7 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Datasheet" "" (at 165.1 139.7 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Description" "" (at 165.1 139.7 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(instances (project "T05_aynali" (path "/ede06d5d-0eb8-4a89-89d8-21702efa6a5f" (reference "U7") (unit 1))))
+	)
+	(wire (pts (xy 167.64 154.94) (xy 167.64 160.02)) (stroke (width 0) (type default)) (uuid "fc7c4d55-bddb-4dd4-83bd-aa3f75a83fa4"))
+	(label "N17" (at 167.64 160.02 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "1252261a-dae0-495b-9cc4-970dac84568b"))
+	(wire (pts (xy 162.56 154.94) (xy 162.56 160.02)) (stroke (width 0) (type default)) (uuid "4f602ae1-b04f-4b92-b7fd-a9088b4025b7"))
+	(label "N18" (at 162.56 160.02 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "02a3e1d6-c3ac-4c14-9466-0ac9faf61636"))
+	(wire (pts (xy 165.1 127) (xy 165.1 121.92)) (stroke (width 0) (type default)) (uuid "c01f6a9a-09dd-4561-9b37-b1e389fafa65"))
+	(label "N19" (at 165.1 121.92 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "5d6c09b2-8c91-43bf-890e-c54036d9f1cc"))
+	(symbol (lib_id "74xGxx:74AUC2G02") (at 215.9 139.7 270) (mirror y) (unit 1) (body_style 1) (exclude_from_sim no)
+		(in_bom yes) (on_board yes) (dnp no) (uuid "63639c32-5a64-447d-881c-2bf10fd51fa9")
+		(property "Reference" "U8" (at 214.63 129.54 0) (effects (font (size 1.27 1.27))))
+		(property "Value" "74AUC2G02" (at 214.63 132.08 0) (effects (font (size 1.27 1.27))))
+		(property "Footprint" "" (at 215.9 139.7 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Datasheet" "" (at 215.9 139.7 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Description" "" (at 215.9 139.7 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(instances (project "T05_aynali" (path "/ede06d5d-0eb8-4a89-89d8-21702efa6a5f" (reference "U8") (unit 1))))
+	)
+	(wire (pts (xy 213.36 124.46) (xy 213.36 119.38)) (stroke (width 0) (type default)) (uuid "404a81b4-96a8-45ea-baf5-e183a3478e56"))
+	(label "N20" (at 213.36 119.38 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "ba32c40d-68a2-4258-af42-5332ca0cd8d1"))
+	(wire (pts (xy 218.44 124.46) (xy 218.44 119.38)) (stroke (width 0) (type default)) (uuid "be23bc0e-9859-4088-b092-0ce010b94c4c"))
+	(label "N21" (at 218.44 119.38 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "f732df3c-aeef-4be0-a93c-1fb9d547be29"))
+	(wire (pts (xy 215.9 152.4) (xy 215.9 157.48)) (stroke (width 0) (type default)) (uuid "41d2a5df-632d-4428-8c8c-ea5c6718b05c"))
+	(label "N22" (at 215.9 157.48 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "d8a7f08e-f88f-46f0-af92-6c1e05232e85"))
+	(sheet_instances (path "/" (page "1")))
+	(embedded_fonts no)
+)

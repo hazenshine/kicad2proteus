@@ -1,0 +1,26 @@
+{
+  "_aciklama": "KiCad sembolü -> Proteus simülasyon modeli. 'proteus': taban dosyadaki gömülü Proteus aygıtı (kapılar). 'kutuphane': Proteus kütüphanesindeki aygıt (DATA/LIBRARY), modeli ve özellikleri oradan alınır. 'mdf': Proteus'un kendi elemanlarından yazılan model dosyası (tek gövdede birden çok kapı). 'birimler': KiCad birim numarası -> {KiCad pin numarası: Proteus pin adı}. 'deger': KiCad Value'nun yazılacağı Proteus özelliği; 'deger_birim': değerden yalnız sayı+birim alınır (ör. '3.7V LiPo' -> '3.7V'). 'proteus_aygit': KiCad sembolü Proteus aygıtının kendi çiziminden üretilmiş (kicad_library/Proteus_Sim); aygıt Proteus kütüphanesinden aynen gömülür. Tabloda olmayan sembol modelsiz aktarılır (görüntü ve bağlantı).",
+  "74xGxx:74AUC2G08": {"proteus": "AND", "birimler": {"1": {"1": "D0", "2": "D1", "7": "Q"}, "2": {"5": "D0", "6": "D1", "3": "Q"}}},
+  "74xGxx:74AUC2G32": {"proteus": "OR", "birimler": {"1": {"1": "D0", "2": "D1", "7": "Q"}, "2": {"5": "D0", "6": "D1", "3": "Q"}}},
+  "74xGxx:74AUC2G02": {"proteus": "NOR", "birimler": {"1": {"1": "D0", "2": "D1", "7": "Q"}, "2": {"5": "D0", "6": "D1", "3": "Q"}}},
+  "74xGxx:74AUC2G04": {"proteus": "NOT", "birimler": {"1": {"1": "D", "6": "Q"}, "2": {"3": "D", "4": "Q"}}},
+  "Device:R": {"kutuphane": "RES", "birimler": {"1": {"1": "1", "2": "2"}}, "deger": "VALUE"},
+  "Device:C": {"kutuphane": "CAP", "birimler": {"1": {"1": "1", "2": "2"}}, "deger": "VALUE"},
+  "Device:Battery_Cell": {"kutuphane": "CELL", "birimler": {"1": {"1": "+", "2": "-"}}, "deger": "VALUE", "deger_birim": "V"},
+  "Device:LED": {"kutuphane": "LED-RED", "birimler": {"1": {"1": "K", "2": "A"}}, "durum": "led",
+                 "_durum": "kullanıcı kararı: KiCad çizimi; simülasyonda kapalı şekiller Proteus LED-RED'in kırmızı tonlarıyla dolar"},
+  "Sensor_Proximity:CNY70": {"kutuphane": "CNY70", "birimler": {"1": {"1": "A", "2": "K", "3": "C", "4": "E"}}, "durum": "ayar",
+                 "_durum": "kullanıcı kararı: KiCad çizimi + Proteus'un mesafe kutusu ('d (mm)', gösterge, artır/azalt) gövdenin altına"},
+  "Proteus_Sim:LOGICSTATE": {"proteus_aygit": "LOGICSTATE", "birimler": {"1": {"1": "Q0"}}},
+  "Proteus_Sim:LOGICPROBE": {"proteus_aygit": "LOGICPROBE", "birimler": {"1": {"1": "D0"}}},
+  "Proteus_Sim:LOGICPROBE_BIG": {"proteus_aygit": "LOGICPROBE (BIG)", "birimler": {"1": {"1": "D0"}}},
+  "Proteus_Sim:7SEG-COM-CATHODE": {"proteus_aygit": "7SEG-COM-CATHODE",
+                 "birimler": {"1": {"1": "A", "2": "B", "3": "C", "4": "D", "5": "E", "6": "F", "7": "G", "8": "COM"}}},
+  "74HC14_DIP14:74HC14_DIP14": {
+    "mdf": {"ad": "74HC14X6", "kaynak": "Proteus 74INV.MDF, 74HC14 satırı (DIGITAL.LML)", "eleman": "INVERTER",
+            "ozellik": "PRIMITIVE=DIGITAL,SCHMITT=D,TDHLDQ=14n,TDLHDQ=14n", "giris": "D", "cikis": "Q",
+            "kapilar": [["1", "2"], ["3", "4"], ["5", "6"], ["9", "8"], ["11", "10"], ["13", "12"]],
+            "itfmod": "TTLHC"},
+    "birimler": {"1": {"1": "1A", "2": "1Y", "3": "2A", "4": "2Y", "5": "3A", "6": "3Y", "7": "GND",
+                       "8": "4Y", "9": "4A", "10": "5Y", "11": "5A", "12": "6Y", "13": "6A", "14": "VCC"}}}
+}

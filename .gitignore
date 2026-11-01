@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+output/
+
+# KiCad local settings and caches
+*.kicad_prl
+fp-info-cache
+*-backups/
+
+# Proteus backups, locks and per-user workspace files
+*.pdsbak
+*.pdsprj.lck
+*.workspace
+!k2p/templates/snap50.workspace
+Project Backups/
